@@ -1,0 +1,10 @@
+.container {
+    background: palegreen;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.item {
+    background-color: orange;
+    margin: 10px;
+}
