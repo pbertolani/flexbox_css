@@ -1,10 +1,19 @@
 .container {
     background: palegreen;
     padding: 20px;
-    display: inline-flex;
+    margin: 20px;
+    display: flex;
 }
 
 .item {
     background-color: orange;
     margin: 10px;
+}
+
+#container-01 {
+    flex-direction: row;
+}
+
+#container-02 {
+    flex-direction:  column;
 }
