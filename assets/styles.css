@@ -1,9 +1,12 @@
 .container {
     background: palegreen;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
+    width: 300px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: normal;
 }
 
 .item {
@@ -19,6 +22,7 @@
     flex-flow: column wrap;    
     height: 300px;
 }
+
 
 .item-1 {
     width: 50px;
